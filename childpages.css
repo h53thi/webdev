@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.line {
+	width: 100%;
+	display: flex;
+}
+
+.container {
+	width: 50%;
+	overflow: hidden;
+}
+
+h1 {
+	color: black; 
+	text-align: center; 
+	font-family: 'Yusei Magic', sans-serif; 
+	text-shadow: 5px 5px 20px white;
+}
+
+img {
+	width: 100%;
+	display: flex;
+}
+
+#left iframe {
+	width: 900px;
+	height: 500px;
+
+}
+
+
+#right {
+	margin: 5%;
+}
+
+#left {
+	margin: 5%;
+}
+
+ul {
+	border-left: 10px solid red;
+	list-style-type: none;
+	background-color: #f1f1f1;
+	padding: 10px 20px;
+}
+
+ul li {
+	font-weight: bold;	
+}
